@@ -46,4 +46,8 @@
 |38|16MHz|ZQ2|SMD 3225|1|
 
 Фьюзы ATtiny44: low: `0xFF`, high: `0xDF`, extended: `0xFF`
+Проект для Atmel Studio 7 с исодными кодами в папке firmware/src.zip, там же две собранные прошивки для RTC DS3231M и DS1339.
+
+Настройка часов:
+
 
