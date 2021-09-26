@@ -1,5 +1,7 @@
 # TinyVFDClock
 
+Часы на вакуумно-люминесцентных индикаторах ИВ-12 и ИВ15.
+
 Список элементов
 
 |ID|Name|Designator|Footprint|Quantity|
@@ -42,3 +44,6 @@
 |36|SM04B-SRSS-TB|X2| |1|
 |37|32.768KHz|ZQ1| |1|
 |38|16MHz|ZQ2|SMD 3225|1|
+
+Фьюзы ATtiny44: low: `0xFF`, high: `0xDF`, extended: `0xFF`
+
