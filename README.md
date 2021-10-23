@@ -7,7 +7,7 @@
 Список элементов:
 |ID|Name|Designator|Footprint|Quantity|
 |--|----|----------|---------|--------|
-|1|0.1u|C1, C2, C5, C6, C8, C9, C13, C16, C17, C18, C19, C20, C25|SMD 0603|13|
+|1|0.1u|C1, C2, C5, C6, C8 `*`, C9 `*`, C13, C16, C17, C18, C19, C20, C25|SMD 0603|13|
 |2|100u|C3, C4|SMD CASE B|2|
 |3|0.22u 50V|C7|SMD 0805|1|
 |4|1u 50V|C10, C15|SMD 0805|2|
@@ -22,7 +22,7 @@
 |13|ATTINY44A-SSUR|DD1|SOP-14|1|
 |14|PT6313S|DD2|SOP-28|1|
 |15|DS3231MZ+|DD3|SO8|1|
-|16|DS1339AU+|DD4|MSOP-8|1|
+|16|DS1339AU+ `*`|DD4|MSOP-8|1|
 |17|ASMD0805-100|F1|SMD 0805|1|
 |18|Keystone 3001|G1| |1|
 |19|IV-12|HG1, HG2, HG3, HG4| |4|
@@ -43,8 +43,10 @@
 |34|TS-1145A-C-B|SB1, SB2, SB3| |3|
 |35|U-F-M5DD-Y-L|X1| |1|
 |36|SM04B-SRSS-TB|X2| |1|
-|37|32.768KHz|ZQ1| |1|
+|37|32.768KHz `*`|ZQ1| |1|
 |38|16MHz|ZQ2|SMD 3225|1|
+
+ `*` - Данные элементы устанавливаются для часов реального времени DS1339AU+
 
 Фьюзы ATtiny44: low: `0xFF`, high: `0xDF`, extended: `0xFF`
 Проект для Atmel Studio 7 в папке firmware/src.zip, там же две собранные прошивки для RTC DS3231M и DS1339.
