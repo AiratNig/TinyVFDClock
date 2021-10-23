@@ -2,7 +2,7 @@
 
 Часы на вакуумно-люминесцентных индикаторах ИВ-12 и ИВ15.
 
-<img src="https://github.com/AiratNig/TinyVFDClock/blob/master/img/IMG_3806.JPG" width="30%"> <img src="https://github.com/AiratNig/TinyVFDClock/blob/master/img/IMG_3808.JPG" width="30%">
+<img src="https://github.com/AiratNig/TinyVFDClock/blob/main/img/IMG_3808.JPG" width="30%"> <img src="https://github.com/AiratNig/TinyVFDClock/blob/main/img/IMG_3806.JPG" width="30%">
 
 Список элементов:
 |ID|Name|Designator|Footprint|Quantity|
